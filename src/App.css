@@ -1,0 +1,18 @@
+div.createBlog form{
+  color: green;
+  font-weight: 600;
+}
+input.blogTitle {
+  margin: 15px;
+}
+input.blogText {
+  margin: 15px;
+  height:200px;
+  
+}
+body {
+  height: 500px;
+}
+div#root {
+  height:500px;
+}
