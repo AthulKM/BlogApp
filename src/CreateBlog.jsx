@@ -21,7 +21,7 @@ function CreateBlog() {
   return (
     <Container className='createBlog'>
       <Form onSubmit={submitHandler}>
-        Title : 
+        Blog Title : 
         <input
           className='blogTitle'
           type="text"
@@ -30,7 +30,7 @@ function CreateBlog() {
           onChange={(e)=>setNewTitle(e.target.value)}
         />
         <br />
-        Blog:
+        Blog Content:
         <input 
           className='blogText'
           type='text'
